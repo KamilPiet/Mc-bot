@@ -14,7 +14,7 @@ async def on_ready():
     update_status.start()
 
 
-@bot.command(name='status', brief="Prints current server status", description="Prints current server status")
+@bot.command(name='status', brief="Prints current server's status", description="Prints current server's status")
 # !status
 async def print_status(ctx):
     is_online, number_of_players = get_server_status()
