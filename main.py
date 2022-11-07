@@ -1,6 +1,5 @@
 import os
 import discord
-import asyncio
 from discord.ext import commands, tasks
 from mc_api import get_server_status
 
